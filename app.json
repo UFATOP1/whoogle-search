@@ -1,8 +1,8 @@
 {
-  "name": "Whoogle Search",
+  "name": "UfaXgle Search",
   "description": "A lightweight, privacy-oriented, containerized Google search proxy for desktop/mobile that removes Javascript, AMP links, tracking, and ads/sponsored content",
   "repository": "https://github.com/benbusby/whoogle-search",
-  "logo": "https://raw.githubusercontent.com/benbusby/whoogle-search/master/app/static/img/favicon/ms-icon-150x150.png",
+  "logo": "https://ufatop1.net/assets/img/logo@2x.png",
   "keywords": [
     "search",
     "metasearch",
@@ -16,12 +16,12 @@
   "stack": "container",
   "env": {
     "WHOOGLE_USER": {
-      "description": "The username for basic auth. WHOOGLE_PASS must also be set if used. Leave empty to disable.",
+      "description": "ชื่อผู้ใช้สำหรับการตรวจสอบสิทธิ์พื้นฐาน ต้องตั้งค่า WHOOGLE_PASS ด้วยหากใช้ เว้นว่างไว้เพื่อปิดใช้งาน",
       "value": "",
       "required": false
     },
     "WHOOGLE_PASS": {
-      "description": "The password for basic auth. WHOOGLE_USER must also be set if used. Leave empty to disable.",
+      "description": "รหัสผ่านสำหรับการตรวจสอบสิทธิ์พื้นฐาน ต้องตั้งค่า WHOOGLE_USER หากใช้ เว้นว่างไว้เพื่อปิดใช้งาน",
       "value": "",
       "required": false
     },
